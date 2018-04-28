@@ -3,7 +3,7 @@ playlist['John Lennon'] = "Imagine";
 
 function updatePlaylist(thePlaylist, theArtist, theSong) {
   thePlaylist.theArtist = theSong; // returns the added value
-  return thePlalist;
+  return thePlaylist;
 }
 
 function removeFromPlaylist(thePlaylist, theArtist) {
