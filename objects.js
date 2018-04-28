@@ -7,5 +7,5 @@ function updatePlaylist(thePlaylist, theArtist, theSong) {
 }
 
 function removeFromPlaylist(thePlaylist, theArtist) {
-  delete thePlaylist.theArtist; // 
+  delete thePlaylist.theArtist; // returns true if successful
 }
